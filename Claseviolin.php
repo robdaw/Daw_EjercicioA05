@@ -39,7 +39,7 @@ class ClaseViolin
       return $this->tamanyo;
   }
   public function getPrecio() {
-      return $this->Precio;
+      return $this->precio;
   }
   public function getTensores() {
       return $this->tensores;
