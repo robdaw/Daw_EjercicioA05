@@ -8,7 +8,7 @@ class ClaseViolin
 
   // Declaración de una propiedad
   public $color = 'marron';
-  public $tamaño = "4/4";
+  public $tamanyo = "4/4";
   public $precio = 1000;
   public $tensores = 1;
 
@@ -31,16 +31,18 @@ class ClaseViolin
 
   //Getters
   public function getColor() {
+    echo $this->color;
       return $this->color;
   }
   public function getTamanyo() {
-      return $this->tamaño;
+    echo $this->tamanyo;
+      return $this->tamanyo;
   }
   public function getPrecio() {
-      return $this->tamaño;
+      return $this->Precio;
   }
   public function getTensores() {
-      return $this->tamaño;
+      return $this->tensores;
   }
 
 }
